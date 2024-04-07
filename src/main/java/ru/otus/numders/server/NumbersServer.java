@@ -31,7 +31,7 @@ public class NumbersServer {
                 responseObserver.onNext(response);
                 currentValue++;
                 try {
-                    Thread.sleep(2000); // Раз в две секунды
+                    Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

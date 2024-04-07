@@ -46,7 +46,7 @@ public class NumbersClient {
 
         for (int i = 0; i <= 50; i++) {
             try {
-                Thread.sleep(1000); // Раз в секунду
+                Thread.sleep(1000);
                 if (oldValueFromServer != valueFromServer.getValue()) {
                     currentValue = currentValue + valueFromServer.getValue() + 1;
                     oldValueFromServer = valueFromServer.getValue();
